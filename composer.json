@@ -1,0 +1,24 @@
+{
+	"name": "rokde/vat-calculator-php",
+	"description": "Tax calculator for new reverse-charge processing within the european union.",
+	"require": {
+		"php": ">=5.4"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "~4.4"
+	},
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Robert Kummer",
+			"email": "rok@ipunkt.biz"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Rokde\\VatCalculator\\": "src"
+		}
+	},
+	"minimum-stability": "stable",
+	"require": {}
+}
