@@ -11,7 +11,7 @@ See the sister project in [javascript](https://github.com/rokde/vat-calculator).
 Add to your composer.json following lines
 
 	"require": {
-		"rokde/vat-calculator-php": "~0.1.0"
+		"rokde/vat-calculator-php": "~0.1"
 	}
 	
 	
