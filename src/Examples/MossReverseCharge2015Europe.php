@@ -39,6 +39,7 @@ class MossReverseCharge2015Europe
 		$rules->addRule(new Rule('LU', .15));
 		$rules->addRule(new Rule('MT', .18));
 		$rules->addRule(new Rule('NL', .21));
+		$rules->addRule(new Rule('NO', .25));
 		$rules->addRule(new Rule('PL', .23));
 		$rules->addRule(new Rule('PT', .23));
 		$rules->addRule(new Rule('RO', .24));
