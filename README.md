@@ -10,19 +10,20 @@ See the sister project in [javascript](https://github.com/rokde/vat-calculator).
 
 Add to your composer.json following lines
 
-	"require": {
-		"rokde/vat-calculator-php": "~0.1"
-	}
-	
+```json
+"require": {
+	"rokde/vat-calculator-php": "~0.1"
+}
+```
 	
 ## Usage
 
+```php	
+$calculator = \Rokde\VatCalculator\Examples\MossReverseCharge2015Europe::getCalculator('DE');
 
-	$calculator = \Rokde\VatCalculator\Examples\MossReverseCharge2015Europe::getCalculator('DE');
+$country = "AT";
+$company = false;
 
-	$country = "AT";
-	$company = false;
-
-	/* @var \Rokde\VatCalculator\Price price */
-	$price = $calculator->calculate($country, $company);
-	
+/* @var \Rokde\VatCalculator\Price price */
+$price = $calculator->calculate($country, $company);
+```
